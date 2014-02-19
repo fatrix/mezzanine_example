@@ -1,4 +1,4 @@
-from project_template.settings import *
+from {{ project_name }}.settings import *
 
 DATABASES = {
     "default": {

@@ -1,4 +1,4 @@
-from project_example.settings import *
+from {{ project_name }}.settings import *
 from golive.utils import get_var
 
 DATABASES = {
