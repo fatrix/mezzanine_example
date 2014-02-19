@@ -1,5 +1,4 @@
 Mezzanine==3.0.9
-Pillow==2.3.0
 
 # Deploy
 # https://github.com/fatrix/django-golive
