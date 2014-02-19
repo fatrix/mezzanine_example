@@ -18,7 +18,7 @@ Create project
 --------------
 .. code:: bash
 
- tempdir=`mktemp -d -t tmp` &&  mpwd=`pwd` &&  wget https://api.github.com/repos/fatrix/mezzanine_example/tarball/0.2 -O $tempdir/mezzanine_example-0.2.tgz && cd $tempdir && tar -zxf $tempdir/mezzanine_example-0.2.tgz && cd - && django-admin.py startproject --template=$tempdir/fatrix-mezzanine_example-*/project_template/ testsite && echo rm -rf $tempdir
+ tempdir=`mktemp -d -t tmp` &&  mpwd=`pwd` &&  wget https://api.github.com/repos/fatrix/mezzanine_example/tarball/0.3 -O $tempdir/mezzanine_example-0.3.tgz && cd $tempdir && tar -zxf $tempdir/mezzanine_example-0.3.tgz && cd - && django-admin.py startproject --template=$tempdir/fatrix-mezzanine_example-*/project_template/ testsite && echo rm -rf $tempdir
 
 URL's
 -----
