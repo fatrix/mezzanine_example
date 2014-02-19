@@ -1,0 +1,35 @@
+Mezzanine==3.0.9
+Pillow==2.3.0
+
+# Deploy
+# https://github.com/fatrix/django-golive
+
+# S3 storage
+Collectfast==0.1.13
+boto==2.25.0
+django-storages==1.1.8
+
+# Debug
+django-debug-toolbar==1.0.1
+django-extensions==1.3.3
+
+django-redis==3.5.0
+redis==2.9.1
+
+# missing devs
+Pillow==2.3.0
+psycopg2==2.5.1
+
+# testing
+django-nose==1.2.0
+nose==1.3.0
+
+# for golive
+-e git+https://github.com/fatrix/django-golive.git#egg=golive-dev
+Fabric==1.8.2
+colorlog==2.0.0
+pyyaml==
+mock==1.0.1
+
+# _site
+-r _site/requirements.txt

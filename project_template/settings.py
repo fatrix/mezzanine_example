@@ -345,7 +345,8 @@ DEBUG_TOOLBAR_CONFIG = {"INTERCEPT_REDIRECTS": False}
 # defined per machine.
 try:
     from local_settings import *
-except ImportError:
+except ImportError, e:
+    print e
     pass
 
 
@@ -365,5 +366,3 @@ except ImportError:
     pass
 else:
     set_dynamic_settings(globals())
-
-print INSTALLED_APPS

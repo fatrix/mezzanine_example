@@ -3,5 +3,8 @@
 *.db
 .DS_Store
 .coverage
-local_settings.py
 /static
+*sublime-*
+secrets.py
+uploads/
+project_template/local_settings.py

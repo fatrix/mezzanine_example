@@ -1,0 +1,22 @@
+CONFIG:
+  PLATFORM: DEDICATED
+  STACK: CLASSIC
+  ADDONS:
+       #- NEW_RELIC_PYTHON
+       #- NEW_RELIC_SERVERAGENT
+
+ENVIRONMENTS:
+  DEFAULTS:
+    INIT_USER: fatrix
+    PROJECT_NAME: mezzanine_example
+    PUBKEY: /Users/fatrix/.ssh/id_dsa.pub
+
+  SANDBOX:
+      SERVERNAME: mezzanine-sandbox
+      ROLES:
+         APP_HOST:
+           - sandbox
+         DB_HOST:
+           - sandbox
+         WEB_HOST:
+           - sandbox
