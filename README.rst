@@ -10,7 +10,7 @@ The template is prepared for use with:
 - S3 Storage
 - django-golive_ for deployment
 - Debug toolbar
-- django-extensions_
+- django-extensions_ (..)
 - django-nose
 - Redis cache
 
