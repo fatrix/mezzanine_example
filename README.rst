@@ -10,7 +10,7 @@ The template is prepared for use with:
 - S3 Storage
 - django-golive_ for deployment
 - Debug toolbar
-- Django extensions
+- django-extensions_
 - django-nose
 - Redis cache
 
@@ -66,6 +66,7 @@ Start runserver with the option --settings:
 .. _django-golive: https://github.com/fatrix/django-golive
 .. _Mezzanine: http://mezzanine.jupo.org/
 .. _hyperlink-name: http://sahli.net
+.. _django-extensions: http://django-extensions.readthedocs.org/en/latest/
 
 Versions
 --------
