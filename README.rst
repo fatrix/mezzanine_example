@@ -9,8 +9,8 @@ The template is prepared for use with:
 
 - S3 Storage
 - django-golive_ for deployment
-- Debug toolbar
-- django-extensions_ (..)
+- django-debugtoolbar_
+- django-extensions_
 - django-nose
 - Redis cache
 
@@ -67,6 +67,7 @@ Start runserver with the option --settings:
 .. _Mezzanine: http://mezzanine.jupo.org/
 .. _hyperlink-name: http://sahli.net
 .. _django-extensions: http://django-extensions.readthedocs.org/en/latest/
+.. _django-debugtoolbar: http://django-debug-toolbar.readthedocs.org/en/1.0/
 
 Versions
 --------
