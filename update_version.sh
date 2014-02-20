@@ -21,4 +21,4 @@ git add VERSION
 git commit -m "Version bump to $INPUT_STRING"
 git tag -a -m "Tagging version $INPUT_STRING" "v$INPUT_STRING"
 git push origin --tags
-git push origin master
+git push 
