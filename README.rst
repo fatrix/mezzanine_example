@@ -23,11 +23,11 @@ Create a project from the template with following command. In your activated vir
 
  virtualenv --no-site-packages $HOME/virtualenvs/myenv
  . $HOME/virtualenvs/myenv/bin/activate
- pip install Django==1.6.2
+ pip install Django==1.6.5
 
 .. code:: bash
 
- V=v`curl https://raw.github.com/fatrix/mezzanine_example/master/VERSION` && tempdir=`mktemp -d -t tmp` &&  mpwd=`pwd` &&  wget https://api.github.com/repos/fatrix/mezzanine_example/tarball/$V -O $tempdir/mezzanine_example-$V.tgz && cd $tempdir && tar -zxf $tempdir/mezzanine_example-$V.tgz --strip-components=1 '*/project_template' && cd - && django-admin.py startproject --template=$tempdir/project_template testsite && echo rm -rf $tempdir
+ V=v`curl https://raw.githubusercontent.com/fatrix/mezzanine_example/master/VERSION` && tempdir=`mktemp -d -t tmp` &&  mpwd=`pwd` &&  wget https://api.github.com/repos/fatrix/mezzanine_example/tarball/$V -O $tempdir/mezzanine_example-$V.tgz && cd $tempdir && tar -zxf $tempdir/mezzanine_example-$V.tgz --strip-components=1 '*/project_template' && cd - && django-admin.py startproject --template=$tempdir/project_template testsite && echo rm -rf $tempdir
 
 URL's
 -----
